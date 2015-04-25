@@ -47,15 +47,15 @@ Pdf nesnesine view dosyasını yüklemek için aşağıdaki kodu kullanıyorum:
 
 	$pdf = PDF::loadView('tablo');
 
-Eğer `loadView` fonksiyonu laravel 4.2 deki `View::make()` fonksiyonu ile aynı şekilde çalışıyor.
+Kütüphanedeki `loadView` fonksiyonu laravel 4.2 deki `View::make()` fonksiyonu ile aynı şekilde çalışıyor.
 
-Birinci parametrede hangi view dosyasını çağıracağınızı ikinci parametrede ise göndereceğiniz veriyi array olarak belirtiyorsunuz.
+Birinci parametrede hangi view dosyasını çağıracağınızı,ikinci parametrede ise göndereceğiniz veriyi array olarak belirtiyorsunuz.
 
 Oluşturduğumuz pdf nesnesini tarayıcıda görüntülemek istersek aşağıdaki komutu:
 
 	return $pdf->stream();
 
-Eğer kullanıcının indirmesini istiyorsak:
+Eğer kullanıcının indirmesini isterseniz:
 
 	return $pdf->download('dosyaismi.pdf');
 
@@ -67,7 +67,7 @@ Uyarı: View dosyasından pdf'e dönüşüm yaparken türkçe karakter sorunlar�
 
 meta tagını view dosyamıza eklemeliyiz.
 
-Not:Html ve css yazarken cssleri dışardan çağırmak yerine html içerisine yazmanızı tavsiye ederim. Bazen sıkıntı çıkarabiliyor. Mümkün olduğunca az html ve css kullanmaya dikkat ediniz.
+Not:Html ve css yazarken cssleri dışardan çağırmak yerine dosya içerisine yazmanızı tavsiye ederim. Bazen sıkıntı çıkarabiliyor. Mümkün olduğunca az html ve css kullanmaya dikkat ediniz.
 
 # Diğer fonksiyonlar #
 
@@ -75,11 +75,11 @@ Eğer oluşturduğumuz pdf dosyasını sunucuda bir alana kaydetmek istersek;
 
 	$pdf->save('dosya/yolu/dosyaadi.pdf');
 	
-Kağıt tipini ayarlamak için;
+Kağıt tipini ayarlamak istersek;
 
 	$pdf->setPaper('a4');
 
-Pdf yönlendirmesini ayarlamak için;
+Pdf yönlendirmesini ayarlamak istersek;
 	$pdf->setOrientation('landscape');
 
 komutlarını kullanabiliriz.

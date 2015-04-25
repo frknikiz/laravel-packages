@@ -13,14 +13,18 @@
         border-right: 1px solid #dddddd;
         border-bottom: 1px solid #dddddd;
     }
+
     table.reference tr:nth-child(odd) {
         background-color: #ffffff;
     }
-    table.reference>thead>tr>th, table.reference>tbody>tr>th, table.reference>tfoot>tr>th, table.reference>thead>tr>td, table.reference>tbody>tr>td, table.reference>tfoot>tr>td {
+
+    table.reference > thead > tr > th, table.reference > tbody > tr > th, table.reference > tfoot > tr > th, table.reference > thead > tr > td, table.reference > tbody > tr > td, table.reference > tfoot > tr > td {
         padding: 8px;
         line-height: 1.42857143;
         vertical-align: top;
-        border-top: 1px solid #ddd;}
+        border-top: 1px solid #ddd;
+    }
+
     table.reference tr:nth-child(even) {
         background-color: #f1f1f1;
     }

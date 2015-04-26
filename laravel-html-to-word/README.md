@@ -14,7 +14,7 @@ Bu Response'a content parametresi olarak View'imizin render edilmiş halini gön
 
 > Aslında burada yapmış olduğumuz şey; bilgisayarımızdaki deneme.html adındaki bir dosyanın adını ve uzantısını deneme.doc olarak değiştirip Word ile açmak ile aynı.
 
-> 
+
 ## Örnek: ##
 
 

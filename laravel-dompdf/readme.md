@@ -84,6 +84,6 @@ Pdf yönlendirmesini ayarlamak istersek;
 
 komutlarını kullanabiliriz.
 
-Kaynak:
+Paket Kaynağı :
 
 [https://github.com/barryvdh/laravel-dompdf/tree/0.4](https://github.com/barryvdh/laravel-dompdf/tree/0.4 "Paketin Github Linki")

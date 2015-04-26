@@ -12,9 +12,6 @@ Bu işlem için laravelde bulunan `Response` nesnesi ile custom bir ` Response` 
 
 Bu Response'a content parametresi olarak View'imizin render edilmiş halini gönderiyoruz.Header kısmına ise `$header` arrayını gönderiyoruz. Böylece kod çalıştığında tablo.view.php view dosyamızı dosyaismi.doc olarak indiriyoruz.
 
-> Aslında burada yapmış olduğumuz şey; bilgisayarımızdaki deneme.html adındaki bir dosyanın adını ve uzantısını deneme.doc olarak değiştirip Word ile açmak ile aynı.
-
-
 ## Örnek: ##
 
 
@@ -25,6 +22,9 @@ Bu Response'a content parametresi olarak View'imizin render edilmiş halini gön
 
         return Response::make(View::make("tablo", self::$data)->render(), 200, $headers);
 
+
+
+> Aslında burada yapmış olduğumuz şey; bilgisayarımızdaki deneme.html adındaki bir dosyanın adını ve uzantısını deneme.doc olarak değiştirip Word ile açmak ile aynı.
 
 Başka bir yazıda görüşmek üzere..
 

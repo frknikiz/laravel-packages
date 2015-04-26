@@ -10,7 +10,7 @@ Diyelim tablo.blade.php adında bir view dosyamız var. Bu dosya gönderilen de�
 
 Bu işlem için laravelde bulunan `Response` nesnesi ile custom bir ` Response` oluşturuyoruz. 
 
-Bu Response'un content olarak View'imizin render edilmiş halini gönderiyoruz.Header kımına ise `$header` arrayını gönderiyoruz. Böylece kod çalıştığında tablo.view.php view dosyamızı dosyaismi.doc olarak indiriyoruz.
+Bu Response'a content parametresi olarak View'imizin render edilmiş halini gönderiyoruz.Header kısmına ise `$header` arrayını gönderiyoruz. Böylece kod çalıştığında tablo.view.php view dosyamızı dosyaismi.doc olarak indiriyoruz.
 
 > Aslında burada yapmış olduğumuz şey; bilgisayarımızdaki deneme.html adındaki bir dosyanın adını ve uzantısını deneme.doc olarak değiştirip Word ile açmak ile aynı.
 

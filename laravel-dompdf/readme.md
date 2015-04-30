@@ -21,7 +21,7 @@ config/app.php dosyasına providers dizisine `'Barryvdh\DomPDF\ServiceProvider',
 		'Barryvdh\DomPDF\ServiceProvider',
 	),
 
-config/app.php dosyasına kütüphaneyi çağırırken kullanacağımız Aliases'ı ekliyoruz ` 'PDF'=> 'Barryvdh\DomPDF\Facade',`
+app/config/app.php dosyasına kütüphaneyi çağırırken kullanacağımız Aliases'ı ekliyoruz ` 'PDF'=> 'Barryvdh\DomPDF\Facade',`
 
 		'aliases' => array(
 		..

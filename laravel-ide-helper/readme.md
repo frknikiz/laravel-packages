@@ -2,7 +2,7 @@
 
 Merhaba arkadaşlar,
 
-Bugün sizlerle belkide laravelden sonra en çok kullanılan paket olan ide helper'ı inceleyeğiz.
+Bugün sizlerle belkide laravelin en çok kullanılan paketi olan ide helper'ı inceleyeğiz.
 
 ## Ne işe yarar ? ##
 
